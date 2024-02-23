@@ -1,0 +1,28 @@
+.contenedor1  {
+    display: flex;
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.contenedor1  div {
+    border: 5px solid red;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+}
+
+.contenedor2  {
+    display: flex;
+    border: 5px solid green;
+    
+}
+
+.contenedor2 div {
+    border: 5px solid yellow;
+    height: 80px;
+    flex: 1;
+    margin: 5px;
+}
+
+
+
