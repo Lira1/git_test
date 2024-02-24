@@ -24,5 +24,68 @@
     margin: 5px;
 }
 
+.c1 {
+    display: flex;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
 
+.c1 .c2 {
+    border: 5px solid red;
+    height: 100px;
+    flex: 1;
+    margin: 5px;   
+}
 
+.c1 .c3 {
+    /* border: 5px solid red; */
+    height: 100px;
+    flex: 1;
+    /* margin: 5px;   */
+}
+
+.c3 {
+    display:block
+    
+}
+
+.c3 .c4 {
+    border: 5px solid red;
+    height: 42.5px;
+    margin: 5px;  
+    
+}
+
+.cx  {
+    display: flex;
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.cx .cy {
+    border: 5px solid red;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+}
+
+.cz  {
+    display: flex;
+    /* border: 5px solid blue;
+    padding: 10px; */
+}
+
+.cz .czz {
+    border: 5px solid red;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+}
+
+.cx .cz {
+    /* border: 5px solid red; */
+    height: 100px;
+    flex: 1;
+    /* margin: 5px;   */
+}
